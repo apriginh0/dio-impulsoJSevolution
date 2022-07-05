@@ -1,0 +1,37 @@
+DECOMPOSIÇÃO
+"If you can't solve a problem, then there is an easier problem that you can solve: find it"
+George Polya
+
+Primeiro passo da resolução de problemas dentro do conceito de pensamento computacional
+"Dado um problema complexo, devemos quebra-lo em problemas menores. Portanto, problemas
+mais fáceis e gerenciáveis"
+Estatégia:
+Análise { Processo de quebrar e determinar partes menores e gerenciáveis }
+Estudar, explorar, realizar exame detalhado, decompor em elementos contribuíntes
+Síntese { Combinar os elementos recompondo o problema original }
+Processod e reconstrução, fundir os elementos de maneira coerente, consiste em reunir
+elementos distintos, de maneira coerente, em um único grande elemento
+Sequêncial, Paralelo { Ordem de execução de tarefas menores }
+Sequencial provavelmente terá dependência entre tarefas, executadas em "fila". Paralelo, tarefas
+podem ser executadas concomitantemente
+Como decompor?
+Identificar ou coletar dados - Agregar os dados - Funcionalidade
+
+PADRÕES
+Reconhecimento de Padrões: Modelo Base, Estrutura Invariante, Repetição
+Abordagem { Extração de características, Classificação de dados }
+Utilizado por: Redes Neurais, Inteligência Artificial, Ciência de dados, Machine Learning
+
+ABSTRAÇÃO
+Abstrair: observar um ou mais elementos, avaliando características e propriedades em separado.
+Abstração: Processo intelectual de isolamento de um objeto da realidade.
+Generalizar: é tornar algo mais amplo, extenso. Na Lógica é a operação que consiste em reunir
+numa classe geral, um conjunto de seres ou fenômenos similares
+
+ALGORITMOS
+Descreve o problema por meio de ferramentras narrativas, fluxograma ou pseudocódigo
+Sequência de passos com objetivo definido, execução de tarefas específicas, conjunto de operações
+que resultem em uma sucessão finita de ações
+Como construir um algoritmo?
+Compreenção do problema, Definição de dados de entrada, Definir processamento, Definir dados
+de saída, Utilizar um método de construção, Teste e diagnóstico

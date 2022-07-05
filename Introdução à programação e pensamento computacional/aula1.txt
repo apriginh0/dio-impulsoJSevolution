@@ -1,2 +1,13 @@
 Raciocinio Lógico é uma forma de pensamento estruturado, ou raciocínio, que permite
 encontrar a conclusão ou determinar a resolução de um problema.
+Classificação: 
+Indução - Leis e teorias {Ciências experimentais}
+Dedução - Inferência a partir de algo {Ciências exatas}
+Abdução - A partir de uma conclusão se tira a premissa {A grama é molhada, logo, deve ter chovido}
+
+Inferência { Sintética [Abdução e Indução] e Analítica [Dedução] }
+
+Aperfeiçoamento
+melhor uso de recursos {Encontrar solução eficiente, Otimizar processos}
+Melhorar código e algoritmos {Simplificar linhas de código, Funções bem definidas}
+

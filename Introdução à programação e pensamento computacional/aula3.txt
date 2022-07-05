@@ -1,0 +1,17 @@
+O QUE É LÓGICA
+Problema é uma questão que foge a uma determinada regra, ou melhor, é um desvio de percurso,
+o qual impede de atingir um objetivo com eficiencia e eficácia
+Lógica é parte da filosofia que trata das formas do pensamento em geral(Dedução, Indução,
+Hipótese, Inferência etc.) e das operações intelectuais que visam à determinação do que é
+verdadeiro ou não
+Lógica computacional: organização e planejamento das instruções, assertivas em um algoritmo,
+a fim de viabilizar a implantação de um programa
+
+Técnicas
+Linear: Modelo tradicional, Não tem vínculo, Estrutura hierárquica, Programação de Computadores
+Execução sequenciada, com recursos limitados, única dimensão
+Estruturada: Organização, disposição e ordem dos elementos essenciais que compõem um corpo
+Objetivo { escrita, entendimento, validação, manutenção }
+Modular: Partes independentes, controlada por um conjunto de regras
+Dados de entrada, Processo de transformação, Dados de saída
+Metas { Simplificação, Decompor o problema, Verificação do módulo }
