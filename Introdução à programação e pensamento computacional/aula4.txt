@@ -1,0 +1,55 @@
+Qual a função do computador?
+Informação:
+Dados - Objetos de manipulação e processamento, do computador
+Instruções - São as normativas utilizadas pelo computador para executar determinadas ações
+que irão processar aqueles dados.
+Tipos de dados:
+Numéricos - Inteiros e Reais
+Caractéres - Tudo aquilo que é lido como não-número
+Lógicos(Booleano) - Verdadeiro(1) e Falso(0)
+
+VARIÁVEL
+É um tipo de estrutura mutável, inconstante, que pode receber mais de um valor
+Pode assumir qualquer um dos valroes de um determinado conjunto de valores
+Papéis de uma variável:
+Ação - Modificação de estado(do algoritmo, do programa)
+Controle - Vigiada, controle(de estrutura, de equação)
+
+CONSTANTE
+Inalterável, não muda, é invariável
+
+INSTRUÇÕES PRIMITIVAS
+Instruções são linguagem de palavras-chave(vocabulário) de uma determinada programação que
+tem por finalidade comandar um computador que irá tratar os dados.
+Irão determinar as ações que iremos executar nos nossos dados, geralmente calculos matematicos,
+para isso usa-se operadores
+tipos: unário e binário
+
+ESTRUTURAS CONDICIONAIS E OPERADORES
+Condicional expressa uma condição ou suposição. Contem ou implica uma suposição ou hipótese
+tipos: simples, composta e encadeada
+
+ESTRUTURAS DE REPETIÇÃO
+condição de parada(pesquisar)
+
+VETORES E MATRIZES
+Um vetor é caracterizado por uma veriavel dimensionada com tamanho pré-fixado.
+Matriz é uma tabela organizada em linhas e colunas no form ato m x n, onde m representa o
+número de linhas(horizontal) e n o número de colunas(vertical)
+
+O QUE SÃO FUNÇÕES?
+São também conhecidas como subprograma, subalgoritmo, bloco, método, sub-rotina
+Similar ao conceito de função matemática("conecta" um conjunto A ao B) - F : A ---> B
+A funções, ou sub-rotinas são blocos de instruções que realizam tarefas específicas
+Modularização do programa
+São blocos de instruções(código), identificados por Assinatura(nomes e parâmetros)
+
+INSTRUÇÕES DE ENTRADA E SAÍDA
+Entrada: Consiste na inserção e recebimento de dados do mundo real, por meio de ação de alugma
+interface, seja teclado, mouse, arquivos, entre outros
+tipos: Saída programada(condicional e incondicional) e por interrupção(definida pelos periféricos)
+Saída: Consiste na imrpessão dos dados do mundo abstrado, digital por meio de ação de alguma
+interface. Os formatos podem variar desde simples arquivos binários até complexas querys de
+banco de dados
+
+

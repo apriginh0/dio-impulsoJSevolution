@@ -1,0 +1,33 @@
+1949 - Assembly é linguagem de máquina
+Anos 50 - 1ª linguagem de programação
+Entre 60 e 70 - COBOL, C, ML, Prolog
+anos 90 - Alto nível(C#, Java, Javascript, Python, RUBY...)
+2000 - Novos conceitos(TS, GO, R...)
+
+Problemas de decisão - São problemas de carater lógico
+Probelmas de busca - Relacionamento binário Ex: clique
+Problemas de otimização - Maximizar ou minimizar uma função
+
+O que é uma linguagem de programação?
+Método padronizado composto por um conjunto de regras sintáticas e semânticas de
+implementação de um código fonte
+Conjunto de palavras com regras
+Código fonte {Tradução - Interpretação}
+Tradução(compilação): [1]Geração do programa objeto, [2]Execução do programa objeto
+Execução mais rápida
+Interpretação: Programa fonte executado diretamente
+Maior flexibilidade
+
+Características
+Desenvolvimento de programas{Legibilidade, Redigibilidade, Confiabilidade, Custo}
+
+Análise{Lexical - Syntax - Semantic analyzer}
+Léxica{Particionar, Classificar e Eliminar}
+Sintaxe(forma): Componente do istema linguístico que interligam os constituintes da sentença,
+atribuindo-lhe uma estrutura. Define a corretude do programa
+
+Semântica(significado): É o estudo do significado. Incide sobre a relação entre significantes, como:
+palavras, frases, sinais e símbolos. Lógica do programa
+
+
+

@@ -1,0 +1,9 @@
+PARADIGMA
+
+Forma de resolução de problemas com diretrizes e limitações específicas de cada paradigma 
+utilizando linguagem de programação
+Classificação: Orientação à objeto, Procedural, Funcional, Estruturado, Computação Distribuída,
+Lógico
+Estruturado{Sequência, Decisão, Iteração} - Ênfase em sequência
+
+Referência Bibliografica no PDF
