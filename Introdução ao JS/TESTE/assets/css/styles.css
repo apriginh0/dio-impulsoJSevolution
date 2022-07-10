@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245, 250, 178);
+    padding-top: 60px;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 74px;
+    text-shadow: 1px 1px 1px rgba(110, 41, 41, 0.623);
+}
+p{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+button.drop{
+    display: flex;
+  background-color: #0288d1;
+  height: 60px;
+  width: 60px;
+  border-radius: 0% 50% 50% 50%;
+  transform: rotate(45deg);
+  box-shadow: inset -26px 11px 5px -12px #03a9f4;
+  justify-content: center;
+  align-items: center;
+}
+button.drop a{
+  background-color: #0288d1;
+  height: 35px;
+  width: 35px;
+  border-radius: 0% 35% 50% 50%;
+  transform: rotate(315deg);
+  color: rgb(213, 236, 83);
+  font-size: 40px;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+
+button.but{
+   height: 40px;
+   width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(216, 213, 10);
+    background-color: rgb(244, 252, 176);
+    color: rgb(202, 26, 26);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+    font-weight: 700;
+}

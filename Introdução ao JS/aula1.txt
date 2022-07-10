@@ -1,0 +1,24 @@
+Características do JS
+Interpretada - Rodada em tempo real
+Baseada em Protótipos
+Multiparadigma
+Comumente utilizada em aplicações web client-side
+Segue o padrão ECMAScript
+
+Evolução:
+1997 - ECMAScript1: First edition
+1998 - ECMAScript2: Editorial changes only
+1999 - ECMAScript3: Regular Expressions. try/catch.
+       ECMAScript4: Never released
+2009 - ECMAScript5: "strict mode". JSON support. String.trim(). Array.isArray(). Array Iteration Methods.
+2015 - ECMAScript6
+
+Aplicações: Web, Mobile, Smartwatches, Games, Internet of Things, APIs
+
+RECURSOS BÁSICOS
+Usando ctrl+/ é possível comitar tudo selecionado
+Boa prática declarar constante em letras maiúsculas
+
+DOM(Document Object Model) - Estrutura de elementos dentro da janela
+
+
