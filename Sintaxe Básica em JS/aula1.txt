@@ -97,3 +97,106 @@ unshift() - add item no início do array;
 indexOf() - retorna o índice de um valor;
 splice() - remove ou substitui um item pelo índice;
 slice() - retorna uma parte de um array existente;
+
+OBJETOS
+Dados que possuem propriedades e valores que definem suas características.
+Deve ser declarado entre chave "{}".
+Ex: var xicara = {
+   cor: 'azul',
+   tamanho: 'p',
+   funcao: tomarCafe()
+}
+Manipulação
+As propriedades de objetos podem ser atribuídas à variáveis, facilitando a
+manipulação do objeto. Chamamos isso de desestruturação.
+Ex: var xicara = {cor: 'azul', tamanho: 'p', funcao: tomarCafe()}
+    var cor = xicara.cor;
+    var tamanho = xicara.tamanho;
+    var funcao = tomarCafe();
+Outra forma de fazer desestruturação é utilizando chage ao declarar a variável.
+Ex: var xicara = {cor: 'azul', tamanho: 'p', funcao: tomarCafe()}
+    var { cor, tamanho, funcao } =  xicara;
+
+Estruturas Condicionais
+São instruções para realizar determinadas tarefas a partir de uma condição,
+seja de decisão ou repetição;
+Estrutura de decisão: Podemos usar as palavras reservadas "if" para estabelecer
+uma condição. if(jogador1 > jogador2){ console.log("jogador1 ganhou.");}
+              else if(jogador1 < jogador2) {console.log("jogador2 ganhou.");}
+              else { console.logo("o jogo foi empate.");}
+Ninho de if ou aninhamento de if: é quando existe um "if" dentro de outro "if".
+if ternário: Faz uma verificação em uma única linha.
+         Ex: [condição] ? [instrução1] : [instrução2];
+   [jogador > 0] ? console.logo('marcou ponto') : console.logo('não marcou')
+O "switch/case" funciona como uma estrutura condicional também;
+   switch(${expressão}){
+      case 1: ${instrução};
+      brack;
+      case 2: ${instrução};
+      brack;
+      case 3: ${instrução};
+      brack;
+   }
+
+Estruturas de Repetição
+São estruturas condicionais que repetem uma instrução até atingir determinada
+condição: for; for/in; for/of; while; Do/while;
+For: funciona como uam repetição de instrução até que a condição seja falsa.
+for([expressãoInicial]; [condição]; [incremento]){ declaração }
+For/in: funciona como uma repetição a partir de uma propriedade.
+for([indice] in [objeto ou array]){ declaração }
+For/of: funciona como uma repetição a partir d eum valor.
+for([indice] of [array]){ declaração }
+Não funciona com objetos, pois as propriedade variam, diferentes do índice em
+um array que sempre serão números inteiros. Para isso, se torna necessário
+passar a propriedade dentro da condição.
+for(i of object.propriedade){ console.log(i);}
+Porém, ele imprime cada letra em uma linha.
+While: executa uma instrução "enquanto" determinada condição for verdadeira,
+a verificação é feita antes da execução;
+Do/While: executa uma instrução "até que" determinada condição seja falta, a
+verificação é feita depois da execução;
+
+Funções
+São blocos de comandos e instruções para a execução de determinadas tarefas.
+function nomeDaFuncao(){
+   ${instrução};                    DECLARAR A FUNÇÃO
+}
+nomeDaFuncao()                      CHAMAR A FUNÇÃO
+Geralmente se utiliza a palava reservada "function" seguida de parênteses "()"
+e chaves "()".
+Os parênteses "()": indica que é um objeto do tipo function;
+As chaves "{}": indica que é um bloco de instrução;
+
+Funções com Parâmetros
+As Funções podem receber, em sua declaração, parâmetros que servem como
+variáveis, onde sua atribuição pode ser feita durante a chamada da função.
+function nomeDaFuncao(parametro){ ${instrucao};}
+nomeDaFuncao(valorDoParametro);
+
+Tipos de Funções
+Declarativas: são funções que possuem o uso mais comum, deve ser declarada
+usando a palavra reservada "function" seguida do nome da função, parênteses "()"
+e chaves "{}".
+Ex: function nomeDaFuncao(){
+   ${instrucao};
+}     // nome da função é obrigatório
+Expressões de Funções: são funções atribuídas às expressões. A nomeação das
+funções por expressão é opcional.
+Ex1: var funcao = function nomeDaFuncao(){
+   ${instrucao};
+}
+Ex2: var funcao = function(){
+   ${instrucao};
+};
+Arrow Function: são funções de expressão de sintaxe curta. Arrow functions
+sempre serão anônimas, e portanto não podem ser nomeadas. Deve ser declarada
+com parênteses "()", seguido de "=>" e depois chaves "{}".
+Ex: var funcao = () => {
+   ${instrucao};
+}
+Funções Aritiméticas
+Number() - para converter valores em números;
+Prompt() - para registrar entradas de usuários;
+Alert() - para mostrar mensagem ao usuário;
+Template Strings - para usar strings junto com empressões;
