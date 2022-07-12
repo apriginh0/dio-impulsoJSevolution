@@ -1,0 +1,6 @@
+Tipos de Operadores
+Aritimética: +, -, *, **, /, %, ++, --
+Atribuição: =, +=, *=, /=, %=
+Comparação: ==(igual), ===(igual e mesmo tipo), !=, !==(valor e tipo), >, <, >=, <=
+Lógica: &&, ||, !
+Condicional: if ternário - (Condition) ? expression1 : expression2
