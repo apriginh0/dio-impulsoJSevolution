@@ -1,0 +1,44 @@
+This: o que é?
+A palavra reservada this é uma referência de contexto.
+Seu valor pode mudar de acordo com o lugar no código onde foi chamado.
+      CONTEXTO          |                REFERÊNCIA
+Em um objeto(método)    |       Próprio objeto dono do método
+      Sozinha           |  Objeto global(nem navegadores - window)
+      Função            |               Objeto global
+      Evento            |       Elemento que recebeu o evento
+
+Call
+function qualquer.call
+É possível passar parâmetros para essa função separando-os por vírgulas.
+
+Apply
+function qualquer.apply
+É possível passar parâmetros para essa função dentro de um array.
+
+Bind
+Clona a estrutura da função onde é chamada e aplica o valor do objeto passado
+como parâmetro.
+
+
+Arrow Functions
+const helloWorld = function(){
+   return "Hello World";
+}                        // isso vai virar...
+const helloWorld = () => {
+   return "Hello World";
+}                       // que vai virar...
+const helloWorld = () => "Hello World";
+Caso exista apenas uma linha, pode dispensar as chaves e o return.
+Caso exista apenas um parâmetro pode dispensar os parênteses.
+Ex1: const soma = (a, b) => a + b;
+     soma(4, 6); // 10
+Ex2: const potencia = a => a**2;
+     potencia(3); // 9
+Arrow Function não faz hoisting. Ou seja, é obrigatório a declaração da
+função antes de chama-la.
+
+Outras Restrições de Arrow Function
+"this" sempre será o objeto global. Métodos para modificar seu valor
+não irão funcionar;
+Não existe o objeto "arguments";
+O construtor(ex: new MeuObjeto()) também não pode ser utilizado.
