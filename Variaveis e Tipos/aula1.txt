@@ -1,0 +1,32 @@
+Hoisting - atribuir valor à variavel antes de declara-la
+Diferença entre redeclarar e reatribuir
+
+numberOne = 1;              // atribuição
+console.log(numberOne + 2);
+var numberOne;             // declaração
+
+let precisa ser declarado antes
+
+Const é declarada em SNAKE_UPPER_CASE, tem escopo de bloco e não faz Hoisting
+
+Estruturas de Dados
+tipagem dinâmica e fraca
+tipos primitivos não possuem métodos dentro deles
+tipos não primitivos são objetos e arrays
+
+let exemplo = new String("blablabla")
+typeof exemplo: object // String com letra maiuscula cria um object
+
+validation = 3>= 2
+true
+validation.toString()  // transforma o conteúdo em string
+"true"
+
+Arrays(vetores): são listas interáveis de elementos
+0 1 2 3 4 5
+
+Objects: Estrutura tipo "Chave e Valor"
+let person = { name: 'Diego', age: 20};
+
+Palíndromo - frase ou palavra que se pode ser, indiferentemente, da esquerda
+pra direita ou vice-versa
