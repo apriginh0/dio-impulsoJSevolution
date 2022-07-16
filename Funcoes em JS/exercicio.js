@@ -1,4 +1,4 @@
-// Exercício feito na aula
+// Exercício feito na aula por Stephany Nusch
 const alunos = [
 	{
 		nome: 'João',
