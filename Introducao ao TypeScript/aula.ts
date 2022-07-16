@@ -100,4 +100,59 @@ function redirecione(usiario: IUsuario){
    // redirecionar para a area do usuario
 }
 
-//
+// Usando CLASS
+
+interface Cachorro{
+   nome: string;
+   idade: number;
+   parqueFavorito?: string;
+}
+
+class MeuCachorro implements Cachorro{
+   nome;
+   idade;
+
+   constructor(nome, idade){
+      this.nome = nome;
+      this.idade = idade;
+   }
+}
+const cao = new MeuCachorro('Apolo', 14);
+
+// Tornado em dado só de leitura
+
+interface Cachorro{
+   nome: string;
+   idade: number;
+   parqueFavorito?: string;
+}
+type CachorroSomenteLeitura = {
+   +readonly [K in keyof Cachorro]-?: Cachorro[K];
+}
+
+class MeuCachorro implements CachorroSomenteLeitura{
+   nome;
+   idade;
+   parqueFavorito;
+
+   constructor(nome, idade){
+      this.nome = nome;
+      this.idade = idade;
+   }
+}
+const cao = new MeuCachorro('Apolo', 14);
+cao.idade = 8;
+
+console.log(cao);
+
+// import JQuery
+
+import $ from 'jquery';
+
+$.fn.extend({
+   novaFuncao(){
+      console.log('Chamou nova função');
+   }
+});
+$('body').novaFuncao();
+
