@@ -1,0 +1,13 @@
+O QUE É?
+Superset do JavaScript
+linguagem construída por cima do JS;
+Adiciona feactures à linguagem original;
+Compila para JS;
+
+POR QUE USAR TS?
+Adiciona definição estática de tipos:
+Funcionalidade do código mais explícitas;
+Maior segurança durante o desenvolvmento;
+Detecta erros durante a compilação que só seriam percebidos em execução;
+Compila um JS mais resiliente;
+Ajuda a desenvolver boas práticas de programação;
