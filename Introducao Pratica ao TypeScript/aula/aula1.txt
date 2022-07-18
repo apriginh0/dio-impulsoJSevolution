@@ -11,3 +11,15 @@ Maior segurança durante o desenvolvmento;
 Detecta erros durante a compilação que só seriam percebidos em execução;
 Compila um JS mais resiliente;
 Ajuda a desenvolver boas práticas de programação;
+
+Passo a Passo
+
+Abrir pasta
+Inserir 'npm init -y'
+npm install -g typescript
+npm install typescript
+
+REVISÃO
+
+vimos: boolean, string, listas, enums, any, void, função, unknown, never...
+onde ver mais: typescriptlang.org/docs/handbook/2/everyday-types.html
