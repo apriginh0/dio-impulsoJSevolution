@@ -1,0 +1,132 @@
+Como funciona o protocolo HTTP(HyperText Transfer Protocol)?
+
+Definido pelos RFCs 1945 e 2116
+Protocolo de comunicação
+Arquitetura Client-server
+Stateless - Não guarda estado, apenas responde às requisições
+Browser -> implementa o cliente HTTP
+Servidor -> host objetos web
+
+Cliente = Mensagens - Request HTTP(Objetos web)
+Servidor = Mensagens - Response HTTP(protocolo TCP)
+// TCP = Transmission Control Protocol
+
+Mensagens HTTP - Request - Texto em ASC2
+Estrutura:
+Método(Get:/somedir/page.html)[HTTP/1.1]Versão              {Request Line}
+URL(Host:www.someschool.edu)                                {
+Connection:close[ tipo Não Persistente ]
+User-agent:Mozilla/5.0[Agente que realiza a requisição ]      Header Line
+Accept-language:fr[preferencia do cliente]                                }
+
+GET - Solicita um recurso do servidor
+HEAD - GET sem corpo de resposta
+POST - Submete uma entidade a um recurso
+PUT - Substituição de recursos pelos dados da requisição
+DELETE - Remoção de um recurso
+TRACE - Chamada de loop-back a um determinado recurso
+OPTION - Opções de comunicação com recurso
+CONNECT - Tunelamento identificado pelo recurso
+PATCH - Modificação parcial
+
+GET, POST e OPTION são métodos seguros(operação de leitura[Read-only])
+
+HTTP Response
+
+HTTP/1.1 200 OK[Status Line]
+Connection:close                                {
+Date: Tue, 09 Aug 2011 15:44:04 GMT
+Server: Apache/2.2.3(CentOS)                           Header
+Last-Modified: Tue, 09 Aug 2011 15:11:03 GMT            Line
+Content-Length:6821
+Content-Type:text/html                                           }
+(data, data, ...)[Entity Body]
+obs: existe Entity Header e Entity Body
+
+200 OK - Request bem sucedida e objeto enviado
+301 Moved Permanently - Obejeto realocado nova URL no campo Location
+400 Bad Request - Reposta genérica, servidor não entendeu a mensagem
+404 Not Found - O documento solicitado é inexistente
+505 HTTP Version Not Supported - Versão do protocolo não suportada pelo servidor
+
+Classificação dos Status Code
+Information response(100-199)
+Successful response(200 - 299)
+Redirection response(300 - 399)
+Client error response(400 - 499)
+Server error response(500 - 599)
+
+Web Distributed Authoring and Versioning
+102 - Processing
+207 - Multi-Status
+208 - Already Reported
+422 - Unprocessable Entity
+423 - Locked
+424 - Failed Dependency
+
+Web Distributed Authoring and Versioning
+Webpage Meta: Add, deletar, retrieve
+Link pages
+Criação de conjunto de documentos
+Copy e move
+Lock: documento editado - 1
+
+O que são Cookies?
+Pequenos pedaços ou blocos de dados criados e utilizados pelo servidor
+para persistir dados no dispositivo do cliente.(TRACK)
+Estão dentro do HEADER FILE
+Especificação: RFC 6265
+Cookies de sessão: são apagados quando a sessão é finalizada
+Cookies de persistentes: são mantidos por meses ou anos, dentro do pc
+
+Web cache ou Proxy server?
+É um proxy intermediario/
+
+HTTP 2.0
+Única conexão persistente
+Compressão de header
+Server push
+HTTPs por padrão - TLS
+Negociação no handshake
+
+Servidores/Sistemas - HTTP Servers
+
+APACHE: De 1995, contribuição com WWW, Opensource & free, comunidade - Apache Software Foundation
+Modular, dinâmico e carrefável
+Multiple Request Processing
+Modes(MPMs)
+Altamente escalável(+10,000 conexões simultâneas - fácil)
+Lida com arquivos estáticos, index, auto-indexing e negociação de conteúdo
+TLS/SSL via OpenSSL ou wolfSSL
+Servidores virtuais com endereços baseados em IP ou nome
+Compatibilidade com IPV6
+Sporte à versão 2.0 do HTTP
+Proxy reverso, websocket...
+
+NGINX: Servidor lançado em 2004
+Web server
+Proxy reverso
+Load balancer
+Mail proxy
+HTTP cache
++10 mil conexões simultâneas
+Lida com arquivos estáticos, index, auto-indexing
+proxy reverso
+Load balance
+TLS/SSL com SNI via OpenSSL
+Suporte à HTTP 2.0
+Compatível com IPV6
+FastCGI SCGI, uWSGI com cache
+Suporte a gRPC(v. 1.13.10)
+Servidores virtuais baseados em IP e nome
+websocket desde 1.3.13
+URL rewriting and Redirection[35][36]
+
+XAMPP: Pacote/ambiente
+Usa Apache server, MariaDB, Interpretadores scripts - PHP/Perl
+OpenSSL, phpMyAdmin, MediaWki, Joo mla, Wordpress...
+Voltado para teste e desenvolvimento, sem acesso a internet
+
+Wireshark - Para ver o TCP e etc., acontecendo. Troca de pacotes
+
+

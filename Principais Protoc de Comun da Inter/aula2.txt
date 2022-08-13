@@ -1,0 +1,70 @@
+Segurança da informação
+
+Chave assimétrica:
+Chave privada - Assinatura, criptografia
+Chave pública - Verificação de autenticidade
+
+Chave simétrica:
+Chave única privada - Conhecimento prévio da chave
+como transferir?
+Cifra de César - Substituição da letra pela k-ésima do alfabeto, Rotatividade do alfabeto
+Tipos:
+Cifra de fluxo -
+Sequência de bits pseudo-aleatório
+Mapeamento 1 para 1(bit a bit) - 0 ou 1
+(bit de entrada) --> F(x)(fluxo de bits) --> (dados cifrados)
+
+Cifra de bloco - SSL, PGP, IPSec
+Ex: k=3 (010)(110)(001)(111)    permuta a cada 3 bits
+Mapeamento por funções K>64 -> 1,844674407x10**19!(fatorial), usado por:
+DES  AES  3DES
+
+Cetificado Digital
+certificação de chave pública é feito por IPSec, SSL e TSL
+O que é certificar uma chave?
+Comprovar autenticidade
+Entidade certificadora?
+Certification Authority- CA
+Padrões de autoridades certificadoras:
+IETF - recomendação ITUX.509 - Especificação de um serviço de autenticação e sintaxe de certificados
+RFC 1422 - Gerenciamento de chaves baseados em CA em emails seguros
+
+Protocolo SSL - Secure Socket Layer
+Segurança para conexões TCP
+Confidencialidade
+Integridade
+Autenticidade end-point
+TLS é a 3ª versão do SSL - RFC 4346
+
+Operações do SSL
+
+Handshake, de 3 vias, similar ao HTTP; depois, SSL Hello e Certification(chave pública)
+Key Derivation -
+MS(Master Secret Key): Ea = SEK de X para Y    {
+                       Ma = MAC de X para Y           Verificação
+                       Eb = SEK de Y para X            da chave
+                       Mb = MAC de Y para X              MS            }
+Data Transfer
+TRansferencia efetiva de dados
+Record+Mac
+   verificação de integridade da mensagem
+   Data stream = Record+Mac + ... + Record+Mac
+
+LGPD - Lei Geral de Proteção de dados
+
+WebSocket
+Utilizado em aplicações Web
+Cria uma conecxão bidirecional cliente-servidor, onde ambos os lados podem enviar e receber os dados
+Roda encapsulado no HTTP
+Filtragem, Proxies, Autenticação
+routeSelectionExpression - JSON ONLY
+
+Hendshake - Mais simplificado, de 2 vias, SYN e SYN ACK
+Data Transfer
+
+1. Origin-base security model (restringe páginas web dentro da comunicação)
+2.Endereçamento e protocolo
+3. Camadas -> enquadramento on top TCP
+4. Encerramento do handshake
+
+Load Balancer

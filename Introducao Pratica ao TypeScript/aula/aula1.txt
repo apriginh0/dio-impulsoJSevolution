@@ -23,3 +23,6 @@ REVISÃO
 
 vimos: boolean, string, listas, enums, any, void, função, unknown, never...
 onde ver mais: typescriptlang.org/docs/handbook/2/everyday-types.html
+
+vimos: target, lib, sourceMap, outDir/rootDir, strict, noImplicitAny,
+noUnusedLocals, noUnusedParameters
